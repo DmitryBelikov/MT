@@ -6,3 +6,4 @@ if not == 1 1 , = x 1 ifelse or == 0 0 and == 1 1 == 0 1 print 1 print 0
 = 1asf3214__ 1
 = asdf 11320ff
 if and== 1 1 == 1 1 print 3
++ / * - 1 2 3 4 5
