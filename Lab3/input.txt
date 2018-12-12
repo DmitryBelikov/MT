@@ -1,0 +1,8 @@
+if not == 1 1 , = x 1 ifelse or == 0 0 and == 1 1 == 0 1 print 1 print 0
+= a 0
+, , = a 0 = b 0 if == a b ifelse == a b = c 1 ifelse == a c , if > a 0 = z 1 if > a 1 if > a 2 if > a 3 = q 1 = tt 1
+, , , = a 0 = b 0
+= a012sd_aasr32 1
+= 1asf3214__ 1
+= asdf 11320ff
+if and== 1 1 == 1 1 print 3
