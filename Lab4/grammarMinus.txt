@@ -1,0 +1,24 @@
+NUMBER : [0-9];
+MINUS : -;
+s : NUMBER t
+{
+return int($0.value) - $1.value
+};
+t : EPS
+{
+return 0
+} | ss
+{
+return $0.value
+};
+ss : MINUS NUMBER tt
+{
+return int($1.value) + $2.value
+};
+tt : EPS
+{
+return 0
+} | ss
+{
+return $0.value
+};

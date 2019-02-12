@@ -1,0 +1,14 @@
+NUMBER : [0-9];
+ADD : \+;
+s : NUMBER number
+{
+right = 0 if $1.value == '' else $1.value
+return int($0.value) + right
+};
+number : EPS
+{
+return 0
+} | ADD s
+{
+return $1.value
+};
